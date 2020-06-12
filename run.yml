@@ -1,0 +1,8 @@
+---
+- hosts: localhost
+  vars_files:
+    - vars/main.yml
+  tasks:
+    - name: templating
+      template: src=templates/lambda.tf.j2 dest=files/lambda.tf
+      with_items: resource_list

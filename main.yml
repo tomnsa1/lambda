@@ -1,0 +1,27 @@
+---
+api: WEB
+resource_list:
+  - AddExtraDetails
+  - GetJobInfo
+  - GetMailDataForCustomer
+  - GetOrderStatus
+  - GetPrintCenters
+  - GetReturnEnvelopeReport
+  - LookupBulkCancelJobs
+  - LookupJobs
+  - LookupJobsforRejection
+  - LookupScanJobs
+  - ReRouteJobsbyFastRefID
+  - ReRouteJobsBySiteDate
+  - RetrieveActiveRules
+  - SearchActivityLog
+  - SearchDocumentIndex
+  - SearchFASTEventLog
+  - SearchJobs
+  - SearchOrderInquiryReport
+  - SearchOrderScannedReport
+  - SearchOrderSummaryReport
+  - SetBulkJobsAsScanned
+  - SetBulkJobsReroute
+  - SetJobAsCancelled
+  - SetJobasRerendered
